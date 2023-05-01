@@ -7541,19 +7541,19 @@ print("===========================================")
 
 
 
-image_dir = 'v7_UPLOADS_DIR/'
+image_dir = 'v9_UPLOADS_DIR/'
 os.makedirs(image_dir, exist_ok=True)
 
 
-@app.route('/v7_UPLOADS_DIR')
+@app.route('/v9_UPLOADS_DIR')
 def rootz():
     return app.send_static_file('index.html')
 
-@app.route('/v7_UPLOADS_DIR/download/<image>')
+@app.route('/v9_UPLOADS_DIR/download/<image>')
 def download(image):
     return app.send_from_directory(image_dir, image)
 
-@app.route('/v7_UPLOADS_DIR/upload', methods=['POST'])
+@app.route('/v9_UPLOADS_DIR/upload', methods=['POST'])
 def upload(camera_id):
     millis = int(time.time() * 1000)
     fn = f'{image_dir}/{millis}.jpg'
