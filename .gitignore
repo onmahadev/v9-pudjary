@@ -10,3 +10,5 @@ node_modules/
 ##########
 /.git/
 /__pycache__/
+/v9_UPLOADS_DIR/
+___v7core.py
