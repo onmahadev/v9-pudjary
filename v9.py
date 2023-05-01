@@ -20,7 +20,7 @@ from flask_socketio import SocketIO, emit, join_room, leave_room, close_room, ro
 from threading import Lock
 from faker import Faker
 
-import sinclair as sincl 
+# import sinclair as sincl 
 
 #kEgrQvNvH!qYVMNnw2g584rJ2d2$
 # last:
@@ -44,7 +44,7 @@ faker = Faker('ru_RU')
 #######################################################################
 ##### get config
 cfg = configparser.ConfigParser()
-cfg.read('v7.cfg')
+cfg.read('v9.cfg')
 mylHost=cfg.get('mysql', 'host')
 mylUser=cfg.get('mysql', 'user')
 mylPwd=cfg.get('mysql', 'passwd')
@@ -7484,8 +7484,10 @@ def get_id_min_w_j3(exclude_id=0):
 
 
 
-
-print("v7 c0rE job! MAIN !!!!!!!")
+print("===========================================")
+print("========= v9 c0rE MAIN job! START =========")
+print("========= ver 0.1.9 =======================")
+print("===========================================")
 # start_time = time()
 
 

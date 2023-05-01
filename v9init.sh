@@ -1,7 +1,7 @@
 #!/bin/bash
 pkill Python
 # osx
-python3.10 /Users/cc/wrk/v9-rg/src/v9.py
+python3.10 /Users/cc/wrk/v9-rg/GitHub/v9-pudjary/v9.py
 
 # linux
 #python3.10 /Users/cc/wrk/v7/src/v7.py
