@@ -42,14 +42,7 @@ body {
   -khtml-user-select: none;
   -moz-user-select: none; */
   background-color: transparent;
-}   
-
-.enterBtn {
-  background-color: #e3bd32;
-}
-.enterBtn:hover {
-  background-color: #F95738;
-}
+}      
 
 
     </style>
@@ -88,9 +81,9 @@ body {
 
 
 
-<div class="bg-indigo-900 py-5">
+<div class="min-h-screen bg-indigo-900 py-5">
       <div class="container mx-auto">
-        <div class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <a href = "{{ url_for('management') }}">
             <div class="flex hover:scale-125 hover:bg-yellow-400 hover:text-white justify-center mx-2.5 text-3xl border-2 border-gray-300   hover:border-white rounded-xl p-6 bg-gray-100">
               Управление&nbsp;
@@ -114,44 +107,6 @@ body {
         
 
         </div>
-
-
-
-
-
-        <div class="bg-indigo-900">
-          <div class="flex justify-center container items-center flex-col">      
-          
-            <div class="w-full md:w-3/4  lg:w-1/2 flex flex-col items-center bg-slate-50 rounded-md pt-12">
-                  <!-- email input -->
-                  <div class="w-3/4 mb-6">
-                      <input type="email" name="email" id="email" class="w-full py-4 px-8 bg-slate-200 placeholder:font-semibold text-2xl rounded hover:ring-1 hover:ring-gray-600 outline-slate-500 border-solid border-2 border-slate-300" placeholder="Ваш e-mail адрес">
-                  </div>
-                  <!-- password input -->
-                  <div class="w-3/4 mb-6">
-                      <input type="password" name="password" id="password" class="w-full py-4 px-8 bg-slate-200 placeholder:font-semibold  text-2xl rounded hover:ring-1 hover:ring-gray-600 outline-slate-500  border-solid border-2 border-slate-300" placeholder="Ваш пароль">
-                  </div>
-                  <!-- button -->
-                  <div class="w-2/4 mb-12">
-                      <button type="submit" class="enterBtn py-4 w-full rounded text-blue-900 text-2xl font-bold hover:bg-blue-700"> ВХОД</button>
-                  </div>
-              </div>
-              <div class="flex justify-center container mx-auto mt-6 text-slate-100 text-sm">
-                  <div class="flex flex-col sm:flex-row  justify-between md:w-1/2 items-center">
-                      <div class="flex text-white"> Забыли свой пароль??!</div>
-                      <div class="flex text-white"> Нет аккаунта? Создайте его!</div>
-                  </div>
-              </div>
-          </div>
-          
-          
-      </div>
-      
-
-
-
-
-
       </div>
 
 
@@ -162,14 +117,6 @@ body {
 
     
 
-
-
-
-
-
-
-
-    
 
 
 
