@@ -3,7 +3,7 @@
 
 
 <div id="header" align="center">
-  <img src="/4git/v7-main-logo-01.png" width="148"/>
+  <img src="/4git/Srila_Prabhupada_logo_bg-white.png" width="148"/>
 </div>
 
 
